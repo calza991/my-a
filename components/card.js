@@ -25,12 +25,39 @@ export default function Card() {
               <div className="flex flex-col space-y-2">
               <div className="flex justify-center">
                 <svg
-                  xml
+                  xmlns=""
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-
+                  <path stroke="none" d="M0 0h24v24h0z" fill="none" />
+                  <path d="M5 1215 5l10 -10" />
                 </svg>
-
+                <span className="text-sm ml-1">100 GB of storage</span>
                  </div>
+
+              <div className="flex justify-center">
+                <svg
+                  xmlns=""
+                  className="w-5 h-5"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24h0z" fill="none" />
+                  <path d="M5 1215 5l10 -10" />
+                </svg>
+                <span className="text-sm ml-1"></span>
+              </div>
+
+
                </div>
              </div>
            </div>
