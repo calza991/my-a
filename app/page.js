@@ -1,5 +1,6 @@
 import Iscrizione from "@/components/iscrizione";
 import Card from "@/components/card";
+import bannerone from "@/components/bannerone"
 export default function Home() {
   return (
     <>
@@ -8,6 +9,7 @@ export default function Home() {
       </div>
       <Iscrizione></Iscrizione>
       <Card></Card>
+      <bannerone></bannerone>
     </>
   );
 }
