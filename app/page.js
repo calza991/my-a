@@ -1,8 +1,8 @@
-import Bannerone from "@/components/bannerone"
+import Login from "@/components/login"
 export default function Home() {
   return (
     <>
-      <Bannerone></Bannerone>
+      <Login></Login>
     </>
   );
 }
