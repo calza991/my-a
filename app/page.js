@@ -1,8 +1,10 @@
-import Login from "@/components/login"
+import Navbar from "@/components/navbar";
+import Product from "@/components/product";
 export default function Home() {
   return (
     <>
-      <Login></Login>
+      <Navbar></Navbar>
+      <Product></Product>
     </>
   );
 }

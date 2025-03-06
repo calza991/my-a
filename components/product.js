@@ -1,4 +1,4 @@
-export default function product(){
+export default function Product(){
   return(
     <>
     <div class="flex items-center justify-center min-h-screen bg-slate-100">
