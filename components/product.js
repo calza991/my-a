@@ -19,11 +19,11 @@ export default function Product(){
     </div>
     </div>
       <div class="max-w-sm text-2x1 font-medium">
-        Razer Kraken Kitty Edt Gaming Headset Quartz
+     
       </div>
       <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
         <p class="lime-through">$799</p>
-        <p class="text-7x1 font-bold">$599</p>
+        <p class="text-7x1 font-bold"></p>
         <p class="text-sm font-light text-gray-400">
           This offer is valid until april 3rd or as long as stock lasts!
         </p>

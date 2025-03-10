@@ -5,9 +5,9 @@ export default function Card() {
       <div className=" flex flex-col my-6 space-y-6 md:space-y-0 md:space-x-6 md:flex-row md:my-0">
       <div className="bg-slate-700 rounded-xl text-white">
       <div className="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
-      <div className="text-center uppercase">Basic</div>
-      <h2 className="mt-10 font-serif text-5xl text-center">100GB</h2>
-      <h3 className="mt-2 text-center">$1.99/Month</h3>
+      <div className="text-center uppercase">prima ricetta</div>
+      <h2 className="mt-10 font-serif text-5xl text-center">Pasta alla gricia</h2>
+      <h3 className="mt-2 text-center">La pasta alla gricia è un tipico primo piatto della cucina laziale a base di guanciale e pecorino.</h3>
       <div className="flex justify-center">
         <a
         href="#"
@@ -36,7 +36,7 @@ export default function Card() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                   </svg>
-                  <span className="text-sm ml-1">100GB of storage</span>
+                  <span className="text-sm ml-1"></span>
                 </div>
 
             <div className="flex justify-center">
@@ -53,7 +53,7 @@ export default function Card() {
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Option to add members</span>
+                <span className="text-sm ml-1"></span>
                 </div>
 
                 <div className="flex justify-center">
@@ -70,7 +70,7 @@ export default function Card() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                    <path d="M5 12l5 5l10 -10" />
                   </svg>
-                  <span className="text-sm ml-1">Extra member benefits</span>
+                  <span className="text-sm ml-1"></span>
                 </div>
               </div>
             </div>
@@ -78,9 +78,9 @@ export default function Card() {
         
           <div className="bg-violet-600 rounded-xl text-white">
             <div className="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
-            <div className="text-center uppercase">Standard</div>
-            <h2 className="mt-10 font-serif text-5xl text-center">200GB</h2>
-            <h3 className="mt-2 text-center">$3.99/Month</h3>
+            <div className="text-center uppercase">seconda ricetta</div>
+            <h2 className="mt-10 font-serif text-5xl text-center">Polpette di patate</h2>
+            <h3 className="mt-2 text-center">Le polpette di patate, arrichite con caciocavallo come la tipica ricetta siciliana, sono croccanti fuori e morbide dentro.</h3>
            <a
               href="#"
               className="inline-block px-10 py-3 my-6 text-center border border-violet-600 rounded-lg duration-200 hover:bg-violet-800 hover:border-violet-800"
@@ -106,7 +106,7 @@ export default function Card() {
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">200 GB of storage</span>
+                <span className="text-sm ml-1"></span>
                 </div>
                 <div className="flex justify-center">
                 <svg
@@ -122,7 +122,7 @@ export default function Card() {
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Option to add members</span>
+                <span className="text-sm ml-1"></span>
                 </div>
                 <div className="flex justify-center">
                 <svg
@@ -138,7 +138,7 @@ export default function Card() {
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Extra member benedits</span>
+                <span className="text-sm ml-1"></span>
                 </div>
               </div>
             </div>
@@ -146,10 +146,9 @@ export default function Card() {
 
           <div className="bg-slate-700 rounded-xl text-white">
             <div className="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
-              <div className="text-center uppercase">Premium
-              </div>
-              <h2 className="mt-10 font-serif text-5xl text-center">2TB</h2>
-              <h3 className="mt-2 text-center">$8.99/Month</h3>
+              <div className="text-center uppercase">terza ricetta</div>
+              <h2 className="mt-10 font-serif text-5xl text-center">Brownies</h2>
+              <h3 className="mt-2 text-center">I brownies al cioccolato sono dei tipici dolcetti americani arrichhiti di nocciole tostate.</h3>
               <a
               href="#"
               className="inline-block px-10 py-3 my-6 text-center border border-violet-600 rounded-lg duration-200 hover:bg-violet-800 hover:border-violet-800"
@@ -175,7 +174,7 @@ export default function Card() {
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">2 TB of storage</span>
+                <span className="text-sm ml-1"></span>
                 </div>
                 <div className="flex justify-center">
                 <svg
@@ -191,7 +190,7 @@ export default function Card() {
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Option to add members</span>
+                <span className="text-sm ml-1"></span>
                 </div>
                 <div className="flex justify-center">
                 <svg
@@ -207,7 +206,7 @@ export default function Card() {
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Extra member benedits</span>
+                <span className="text-sm ml-1"></span>
                 </div>
               </div>
             </div>
