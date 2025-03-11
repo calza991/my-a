@@ -3,7 +3,7 @@ export default function Aiuto() {
       <>
         <div className="w-[70%] bg-green-200 mx-auto p-5 rounded-2xl">
           <div className="flex flex-row justify-between items-center mb-7">
-            <img src="images/pericolo 1.png " alt="" className="w-20" />
+            <img src="images/aiuto.jpg" alt="" className="w-20" />
             <svg
               class="w-6 h-6 text-gray-800 dark:text-white"
               aria-hidden="true"
@@ -40,7 +40,7 @@ export default function Aiuto() {
                 className="bg-black text-white text-center p-3 px-5  rounded-2xl font-bold w-5/12"
               >
                 {" "}
-                I HUNDERSTAND, RESET SETTINGS
+                I UNDERSTAND, RESET SETTINGS
               </a>
             </div>
           </div>
