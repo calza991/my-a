@@ -1,8 +1,8 @@
 export default function Product(){
   return(
     <>
-    <div class="flex items-center justify-center min-h-screen bg-slate-100">
-    <div class="flex flex-col p-6 m-3 space-y-10 bg-white rounded-2x1 shadow-2x1 md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16">
+    <div class="flex items-center justify-center min-h-screen bg-slate-800">
+    <div class="flex flex-col p-6 m-3 space-y-10 bg-cyan-400 rounded-2x1 shadow-2x1 md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16">
     <div>
     <img
       src="images/libroricette.jpg"
@@ -23,9 +23,9 @@ export default function Product(){
       </div>
       <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
         <p class="lime-through"></p>
-        <p class="text-7x1 font-bold">$12.26</p>
-        <p class="text-sm font-light text-gray-400">
-          This offer is valid until april 3rd or as long as stock lasts!
+        <p class="text-7x1 font-bold text-black">$12.26</p>
+        <p class="text-sm font-light text-black">
+         
         </p>
       </div>
 
@@ -38,7 +38,7 @@ export default function Product(){
       </div>
 
         <div class="flex items-center space-x-3 group">
-        <div class="w-3 h-3 bg-green-400 rounded-full group-hover:animate-ping"></div>
+        <div class="w-3 h-3 bg-blue-700 rounded-full group-hover:animate-ping"></div>
         <div class="text-sm">50+ pcs. in stock</div>
         </div>
 
