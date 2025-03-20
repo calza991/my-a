@@ -9,6 +9,7 @@ export default function Home() {
     <>
    <Card></Card>
    <Product></Product>
+   <Login></Login>
 
     </>
   );
