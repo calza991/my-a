@@ -1,7 +1,7 @@
 export default function Aiuto() {
     return (
       <>
-        <div className="w-[70%] bg-green-200 mx-auto p-5 rounded-2xl">
+        <div className="w-[70%] bg-gray-600 mx-auto p-5 rounded-2xl">
           <div className="flex flex-row justify-between items-center mb-7">
             <img src="images/aiuto.jpg" alt="" className="w-20" />
             <svg
@@ -29,15 +29,15 @@ export default function Aiuto() {
               Please type<span className="font-bold">"Reset setting"</span>to
               confirm
             </p>
-            <div className="flex flex-row gap-2 ">
+            <div className="flex md:flex-row flex-col gap-2 ">
               <input
                 type="text"
                 placeholder="reset settings"
-                className="border-1 border-gray-300 rounded-xl p-2 w-7/12 bg-white"
+                className="border-1 border-gray-300 rounded-xl p-2 md:w-7/12 w-full bg-white"
               />
               <a
                 href="#"
-                className="bg-black text-white text-center p-3 px-5  rounded-2xl font-bold w-5/12"
+                className="bg-black text-white text-center p-3 px-5  rounded-2xl font-bold md:w-5/12 w-full"
               >
                 {" "}
                 I UNDERSTAND, RESET SETTINGS
